@@ -1,0 +1,602 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #f2f2f2;
+    background-color: rgba(0, 117, 190,1);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+h1{
+    line-height: 1.4em;
+}
+
+p{
+    line-height: 1.8em;
+}
+
+
+.navbar-brand{
+    background: url("../images/logo2.png") no-repeat;
+    background-size: contain;
+    width: 135px;
+    height: 25px;
+    text-indent: -99999px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.navbar-default{
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+    color: #0075be;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    font-size: 18px;
+    color: #aaa;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color:#aaa;
+    background-color: transparent;
+}
+
+
+#fullPage-nav.right {
+    right: -2px;
+}
+
+
+.container{
+    position: relative;
+}
+
+
+.contact-banner{
+    height: 450px;
+    background-color: rgba(0, 117, 190,1);
+    /*padding-top: 120px;*/
+    color: #fff;
+    text-shadow:#666 0px 0px 3px;
+    font-size: 16px;
+}
+.contact-banner h1{
+    font-size: 24px;
+}
+.contact-banner h2{
+    font-size: 18px;
+}
+.contact-banner small{
+    font-size: 12px;
+}
+
+.contact{
+    margin-top: 70px;
+}
+
+.contact-con{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.contact-con a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.contact-con h4{
+    margin-bottom: 10px;
+}
+.contact-con p{
+    margin-bottom: 0px;
+}
+
+.block-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: .1;
+    background: url("../images/aa.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    width: 100%;
+    height: 450px;
+    display: none;
+}
+
+.col-md-3{
+    margin-bottom: 20px;
+}
+
+.beijing{
+    width: 100%;
+    height: 150px;
+    background: url("../images/beijing.jpg") no-repeat;
+    background-size: cover;
+    border: solid 1px #fff;
+    margin-bottom: 20px;
+}
+.dalian{
+    width: 100%;
+    height: 150px;
+    background: url("../images/dalian.jpg") no-repeat;
+    background-size: cover;
+    border: solid 1px #fff;
+    margin-bottom: 20px;
+}
+
+
+.section_01{
+    height: 100%;
+    background:#0075be;
+    color: #fff;
+}
+
+.con01{
+    margin:150px auto 0px;
+    width: 93%;
+    text-align: center;
+}
+
+.con01 h1{
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.con01 p{
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.img01{
+    height: 100%;
+    background-image: url("../images/img01.jpg");
+    background-repeat: no-repeat;
+    background-position: center 130px;
+    background-size: 85%;
+}
+
+.img02{
+    width: 250px;
+    height: 450px;
+    position: absolute;
+    bottom: -270px;
+    left: 50%;
+    margin-left: -88px;
+    background: url("../images/img02.png") no-repeat;
+    background-size: contain;
+}
+
+
+.section_02{
+    height: 100%;
+    background: #f5f5cb url("../images/bg02_720.jpg") no-repeat bottom;
+    background-size: cover;
+}
+
+.con02{
+    margin: 18% auto 0;
+    text-align: center;
+}
+
+.con02 h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.con02 p{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.section_03{
+    height: 100%;
+    background: #e6f3f9 url("../images/bg03_720.jpg") no-repeat bottom;
+    background-size: cover;
+}
+.con03{
+    height: 100%;
+    margin-top: 30%;
+    padding-left: 10px;
+}
+
+
+.con03 h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.con03 p{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.section_04{
+    height: 100%;
+    background: #e6f3f9 url("../images/bg04_720.jpg") no-repeat bottom;
+    background-size: cover;
+}
+.con04{
+    margin-top: 25%;
+    text-align: center;
+}
+
+.con04 h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.con04 p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+
+#superContainer .table{
+    margin-bottom: 0;
+}
+.tableCell {
+    vertical-align: top;
+}
+
+
+
+
+footer{
+    border-top: solid 1px;
+    border-color: rgba(255,255,255,.2);
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 9px;
+    color: rgba(255,255,255,.2);
+}
+
+
+
+
+
+@media(min-width:767px) {
+
+    .contact{
+        margin-top: 120px;
+    }
+
+    .contact-con{
+        margin-top: 00px;
+    }
+
+    #fullPage-nav.right {
+        right: 2px;
+    }
+
+
+    .beijing{
+        width: 45%;
+    }
+    .dalian{
+        width: 45%;
+    }
+
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-out,padding .5s ease-out,border .5s ease-out;
+        -moz-transition: background .5s ease-out,padding .5s ease-out,border .5s ease-out;
+        transition: background .5s ease-out,padding .5s ease-out,border .5s ease-out;
+    }
+
+    .navbar-brand{
+        width: 196px;
+        height: 27px;
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 30px 0;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .top-nav-collapse .navbar-brand{
+        background: url("../images/logo.png") no-repeat;
+    }
+
+    .top-nav-collapse .navbar-nav>li>a {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .top-nav-collapse .navbar-nav>.active>a,
+    .top-nav-collapse .navbar-nav>.active>a:hover,
+    .top-nav-collapse .navbar-nav>.active>a:focus {
+        color:#aaa;
+        background-color: transparent;
+    }
+
+
+    .section h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .section p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section_01{
+        height: 100%;
+        background:#0075be;
+        color: #fff;
+    }
+
+    .con01{
+        margin:250px 0 0 30px;
+        width: 600px;
+        text-align: left;
+    }
+    .con01 h1{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .con01 p{
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .img01{
+        background-position: center 200px;
+        background-size: 95%;
+    }
+
+    .img02{
+        width: 480px;
+        height: 550px;
+        bottom: -50px;
+        left: auto;
+        right: -100px;
+    }
+    .con03{
+        padding-left: 20px;
+        width: 85%;
+    }
+
+
+}
+
+
+@media (min-width: 992px) {
+    body {
+        background: #f2f2f2;
+    }
+
+
+    footer{
+        border-color: rgba(0,0,0,.1);
+        font-size: 14px;
+        color: rgba(0,0,0,.2);
+        text-align: right;
+    }
+
+    .contact-banner h1{
+        font-size: 50px;
+    }
+    .contact-banner h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .contact-banner small{
+        font-size: 16px;
+    }
+
+
+
+    .contact-con{
+        margin-top: 80px;
+        color: #666;
+        font-size: 16px;
+    }
+    .contact-con a{
+        margin-top: 80px;
+        color: rgba(0, 117, 190,1);
+    }
+
+    .contact-con h4{
+        margin-bottom: 15px;
+    }
+    .contact-con p{
+        margin-bottom: 0px;
+    }
+
+    .block-bg {
+        display: block;
+    }
+    .beijing{
+        width: 100%;
+    }
+    .dalian{
+        width: 100%;
+    }
+
+    .beijing{
+
+        margin-top: -10px;
+    }
+    .dalian{
+        margin-top: -10px;
+    }
+
+
+    #fullPage-nav.right {
+        right: 8px;
+    }
+
+
+    .navbar-brand{
+        margin-left: 30px !important;
+    }
+    .navbar-right{
+        margin-right: 30px !important;
+    }
+
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 20px 0;
+    }
+    .con01{
+        margin:200px 0 0 80px;
+        width: auto;
+        text-align: left;
+    }
+    .img01{
+        background-position: center bottom;
+        background-size: 90%;
+    }
+    .img02{
+        width: 430px;
+        height: 500px;
+        bottom: 0px;
+        left: auto;
+        right: -50px;
+        margin-left: 0px;
+    }
+    .section_02{
+        height: 100%;
+        background: #f5f5cb url("../images/bg02.jpg") no-repeat center 0;
+    }
+
+    .img04{
+        width: 824px;
+        height: 289px;
+        background: url("../images/img04.png") no-repeat;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .con02{
+        text-align: left;
+        margin-top: 150px;
+    }
+    .section_03{
+        height: 100%;
+        background: url("../images/bg03.jpg") no-repeat center;
+    }
+    .con03{
+        margin-top: 180px;
+        width: 95%;
+    }
+    .img05{
+        width: 696px;
+        height: 612px;
+        background: url("../images/img05.png") no-repeat;
+        position: absolute;
+        bottom: -230px;
+        left: -80px;
+    }
+    .section_04{
+        height: 100%;
+        background: url("../images/bg04.jpg") no-repeat center;
+    }
+
+    .con04{
+        margin-top: 250px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .navbar-brand{
+        margin-left: 0px !important;
+    }
+    .navbar-right{
+        margin-right: -15px !important;
+    }
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 40px 0;
+    }
+    .con01{
+        margin:320px 0 0 50px;
+    }
+
+    .con01 h1{
+        font-size: 50px;
+    }
+    .con01 p{
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .section_01{
+        height: 100%;
+        background:#0075be url("../images/bg01.jpg") no-repeat center 120px;
+    }
+    .img01{
+        background: transparent none;
+    }
+    .img02{
+        display: none;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    .con02{
+        margin-top: 200px;
+    }
+    .img04{
+        right: 40px;
+    }
+    .con03{
+        margin-top: 300px;
+    }
+    .img05{
+        bottom: -150px;
+        left: -30px;
+    }
+    .con04{
+        margin-top: 320px;
+        width: 98%;
+    }
+
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+    /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+    /* Styles */
+}
+
