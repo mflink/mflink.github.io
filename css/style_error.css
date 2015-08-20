@@ -1,0 +1,154 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 600px;
+    font-size: 18px;
+    color: #666;
+    line-height: 180%;
+}
+a{
+    color: #00A3DA;
+}
+
+.t-blue{
+    color: #00A3DA;
+}
+.t-black{
+    color: #000000;
+}
+
+.link{
+    font-size: 14px;
+    line-height: 18px;
+}
+.header{
+    background:#00A3DA;
+    height: 420px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.tv{
+    background:#00A3DA url("../images/TV.png") no-repeat;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -300px;
+}
+
+.tv .logo{
+    background: url("../images/morefun-logo.png") no-repeat;
+    width: 340px;
+    height: 59px;
+    position: absolute;
+    left: 50%;
+    top: 180px;
+    margin-left: -170px;
+    text-indent: -999999px;
+}
+
+.tv .text{
+    font-size: 24px;
+    margin-top: 270px;
+}
+.tv .text p{
+    margin: 0px;
+}
+
+.control{
+    background: url("../images/control.png") no-repeat;
+    width: 120px;
+    height: 300px;
+    position: absolute;
+    top: 450px;
+    right: 50%;
+    margin-right: -300px;
+
+}
+.control a{
+    background: url("../images/btn1.png") no-repeat;
+    width: 69px;
+    height: 69px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -35px;
+    text-indent: -99999px;
+    overflow: hidden;
+
+}
+.control a:hover{
+    background: url("../images/btn2.png") no-repeat;
+    width: 69px;
+    height: 69px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -35px;
+    text-indent: -99999px;
+
+}
+.download-info{
+    width: 400px;
+    position: absolute;
+    top: 460px;
+    left: 50%;
+    margin-left: -300px;
+}
+.download-info h1{
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #000;
+}
+.download-info p{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+body.p404 .header{
+    background:#d8d8d8;
+}
+body.p404 .tv{
+    background: url("../images/404.png") no-repeat;
+}
+
+
+body.p403 .header{
+    background:#d8d8d8;
+}
+body.p403 .tv{
+    background: url("../images/403.png") no-repeat;
+}
+
+
+.btn{
+    border: solid 1px #00a0ea;
+    border-radius: 4px;
+    padding: 8px 0;
+    color: #00a0ea;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    width: 250px;
+    margin-left: -125px;
+    top: 500px;
+    text-align: center;
+}
+.btn:hover{
+    background: #00a0ea;
+    color: #fff;
+}
